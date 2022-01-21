@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600;700;800&family=Nunito+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <style>
+        nav ul{
+            list-style-type: none;
+            background-color: skyblue;
+            padding: 20px;
+
+        }
+
+        nav ul li{
+            display: inline-block;
+            padding: 0 20px;
+            position: relative;
+        }
+        
+        nav ul li a{
+            text-decoration: none;
+            color: red;
+        }
+
+        .drop{
+            display: block;
+            position: absolute;
+            left: -999px;
+
+        }
+
+        nav ul li:hover .drop{
+            left: 0;
+        }
+
+        .box{
+            width: 250px;
+            height: 250px;
+            background-color: red;
+        }
+
+        .box img{
+            max-width: 100%;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a>
+                <ul class="drop">
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="box">
+        <img src="./10.jpg" alt="">
+    </div>
+    
+    
+
+    
+</body>
+</html>
