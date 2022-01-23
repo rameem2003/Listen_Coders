@@ -52,6 +52,39 @@
         .box img{
             max-width: 100%;
         }
+
+        .design{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: blue;
+            display: inline-block;
+        }
+
+        .inline{
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+
+        .align{
+            margin: 0 auto;
+            display: block;
+        }
+        
+        input:hover{
+            width: 550px;
+        }
+
+        .letter::first-letter{
+            font-size: 25px;
+        }
+        
+
+        
+        
         
     </style>
 
@@ -77,6 +110,34 @@
     <div class="box">
         <img src="./10.jpg" alt="">
     </div>
+
+
+    <section>
+        <div class="para">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <span class="design"></span> consequuntur debitis, repellendus saepe suscipit molestias eveniet <span class="design"></span> provident exercitationem sit fugiat!</p>
+        </div>
+    </section>
+
+
+    <section>
+        <a class="inline" href="#">Home</a>
+        <a class="inline" href="#">About</a>
+    </section>
+
+
+    <!-- <section>
+        <img class="align" src="./10.jpg" alt="">
+    </section> -->
+
+
+
+    <section>
+        <input type="text" name="" id="">
+    </section>
+
+    <section>
+        <p class="letter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque est porro voluptatibus tenetur facere autem repellendus placeat quod corporis. Molestias nemo excepturi recusandae quas mollitia illo ea minus ut porro!</p>
+    </section>
     
     
 
